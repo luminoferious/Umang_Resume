@@ -1,0 +1,81 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{txfonts}
+\usepackage{wasysym}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{changepage}
+\usepackage{hhline}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+filecolor=magenta,
+urlcolor=cyan,
+}
+\urlstyle{same}
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+\usepackage[a4paper,bindingoffset=0.2in,headsep=0.5cm,left=1in,right=1in,bottom=2cm,top=4cm,headheight=4cm]{geometry}
+\everymath{\displaystyle}
+\setlistdepth{9}
+\newlist{myEnumerate}{enumerate}{9}
+	\setlist[myEnumerate,1]{label=\arabic*)}
+	\setlist[myEnumerate,2]{label=\alph*)}
+	\setlist[myEnumerate,3]{label=(\roman*)}
+	\setlist[myEnumerate,4]{label=(\arabic*)}
+	\setlist[myEnumerate,5]{label=(\Alph*)}
+	\setlist[myEnumerate,6]{label=(\Roman*)}
+	\setlist[myEnumerate,7]{label=\arabic*}
+	\setlist[myEnumerate,8]{label=\alph*}
+	\setlist[myEnumerate,9]{label=\roman*}
+
+\renewlist{itemize}{itemize}{9}
+	\setlist[itemize]{label=$\cdot$}
+	\setlist[itemize,1]{label=\textbullet}
+	\setlist[itemize,2]{label=$\circ$}
+	\setlist[itemize,3]{label=$\ast$}
+	\setlist[itemize,4]{label=$\dagger$}
+	\setlist[itemize,5]{label=$\triangleright$}
+	\setlist[itemize,6]{label=$\bigstar$}
+	\setlist[itemize,7]{label=$\blacklozenge$}
+	\setlist[itemize,8]{label=$\prime$}
+
+\pagestyle{fancy}
+\fancyhf{}
+\chead{\begin{center}UMANG DESHPANDE\end{center} \\
+\begin{center}spdu02@gmail.com  $  \vert  $  +91 7350368207  $  \vert  $  \href{numbering.xml}{www.linkedin.com/in/umang-deshpande}
+\end{center} \\
+\vspace{12pt}
+}
+\rfoot{\thepage}
+\begin{document}
+\sloppy 
+\begin{wrapfigure}{r}{1.0in}
+\begin{flushright}
+\includegraphics[width=1.0in,height=1.1in]{./image1.jpeg}
+\end{flushright}
+\end{wrapfigure}
+\vspace{12pt}
+\noindent E-2,Nirant Society,  \\
+Kothari blocks, \\
+Near Sahyadri Hospital, \\
+Bibwewadi,Pune \\
+\vspace{12pt}
+\begin{adjustwidth}{-0.39in}{-0.23in}
+
+\end{document}
